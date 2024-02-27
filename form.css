@@ -1,0 +1,38 @@
+body {
+    background-color: #f58723;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    margin-top: 65px;
+}
+
+select {
+    background-color: #c7ba99;
+}
+
+form > label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.form > input {
+    border-radius: 10px;
+    background-color: #c7ba99;
+}
+
+.botoes input {
+    background-color: #000000;
+    color: #f1ecdf;
+    border-radius: 15px;
+}
+
+.botoes :hover {
+    background-color: #f58723;
+    transition: 1s;
+    cursor: pointer;
+}

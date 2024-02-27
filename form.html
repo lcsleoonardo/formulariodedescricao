@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     
@@ -11,7 +12,7 @@
 
     <h2>Preencha seus dados</h2>
  <!--o id serve para puxar a tag para js para criar alguma lógica. embora o id tenha vindo automático no select, é possivel acrescentar em qualquer tag, desde que seja um input-->
-    <form>
+    <form class="form">
 
         <label for="name">Nome</label>
         <input type="text"> <br><br>
@@ -29,20 +30,22 @@
         <input type="text"> <br><br>
 
         <label for="telefone">Telefone</label>
-        <select name="telefone" id="phone">
+        <select name="telefone" id="phone" class="select">
             <option value="11">(11)</option>
         </select>
         <input type="number"> <br> <br>
 
         <label for="usuario">Usuário</label>
-        <input type="text"> <br> <br>
+        <input type="text" placeholder="Digite o usuário"> <br> <br>
 
         <label for="senha">Senha</label>
         <input type="password"> <br><br>
 
-        <input type="submit">
-        <input type="reset">
-    
+        <div class="botoes">
+            <input type="submit">
+            <input type="reset">
+        </div>
+        
     </form>
 </body>
 </html>

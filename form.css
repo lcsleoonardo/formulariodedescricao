@@ -31,7 +31,7 @@ form > label {
     border-radius: 15px;
 }
 
-.botoes :hover {
+.botoes input :hover {
     background-color: #f58723;
     transition: 1s;
     cursor: pointer;
